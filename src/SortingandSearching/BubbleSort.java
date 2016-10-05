@@ -11,4 +11,17 @@ package SortingandSearching;
  */
 public class BubbleSort {
     
+    public void bubbleSort(T[] arr){
+        
+        T temp;
+        int pos, check;
+        
+        for(pos = arr.length() - 1 ; pos >= 0 ; pos--)
+            for(check = 0 ; check <= pos - 1 ; check++)
+                if(arr[check].compareTo(arr[check + 1]) > 0){
+                    temp = arr[check];
+                    arr[check] = arr[check + 1];
+                    arr[check + 1] = temp;
+                }    
+    }
 }
