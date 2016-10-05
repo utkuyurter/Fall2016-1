@@ -12,10 +12,15 @@ package SortingandSearching;
 public class LinearSearch {
     
     public linearSearch( T[] arr , int min , int max , T lookFor){
+        bool found = false;
+        int index = min;
         
-        
-        
-        
+        while(!found){
+            if(arr[index] == lookFor)
+                found = true;
+            else
+                index++;
+        }
+        return found;
     }
-    
 }
