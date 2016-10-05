@@ -11,4 +11,11 @@ package SortingandSearching;
  */
 public class LinearSearch {
     
+    public linearSearch( T[] arr , int min , int max , T lookFor){
+        
+        
+        
+        
+    }
+    
 }
