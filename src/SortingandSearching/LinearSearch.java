@@ -11,7 +11,7 @@ package SortingandSearching;
  */
 public class LinearSearch {
     
-    public linearSearch( T[] arr , int min , int max , T lookFor){
+    public boolean linearSearch( T[] arr , int min , int max , T lookFor){
         bool found = false;
         int index = min;
         
