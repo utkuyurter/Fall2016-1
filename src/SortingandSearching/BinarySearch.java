@@ -10,7 +10,7 @@ package SortingandSearching;
  */
 public class BinarySearch {
     
-    public bool binarySearch([T] arr , int min , int max , T lookFor){
+    public bool binarySearch(T[] arr , int min , int max , T lookFor){
         found = false;
         int mid = (min + max) / 2;
         while(!found){
